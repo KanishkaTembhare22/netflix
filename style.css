@@ -1,0 +1,132 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(37, 36, 36, 0.674) 60%, rgba(0, 0, 0, 0.8) 100%),url(./IN-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_3457a8b1-284d-4bb5-979e-2a2e9bb342b3_small.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+.header img{
+    width: 10%;
+
+
+}
+
+.header span button{
+    width: 70px;
+    height: 30px;
+    color: azure;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    
+}
+#btn-eng{
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 150px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+#btn-rsp{
+    background-color:  rgba(0, 0, 0, 0.664);
+    display: none;
+    
+}
+
+.hero{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+
+.hero h1{
+    font-size: 60px;
+
+}
+.hero p{
+    margin: 10px;
+    font-size: 25px;
+}
+#pg{
+    font-size: 20px;
+}
+.hero span input{
+    width: 280px;
+    height: 7vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+::placeholder{
+    color: rgb(173, 172, 172);
+    font-size: 15px;
+
+}
+.hero span button{
+    color: white;
+    background-color: red;
+    width:150px;
+    height: 7vh;
+    font-size: large;
+    border-radius: 6px;
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    #btn-rsp{
+        display: inline;
+
+    }
+    #btn-eng{
+        display: none;
+    }
+
+    .hero h1{
+        text-align: center;
+    }
+    .hero p{
+        text-align: center
+    }
+    .hero span input{
+        margin-bottom: 20px;
+    }
+}
